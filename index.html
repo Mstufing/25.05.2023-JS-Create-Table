@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>25.05.2023 JS Create Table</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <form class="inp-form">
+        <div class="inp-label-div">
+            <label for="firstName">First Name:</label>
+            <input type="text" name="firstName" id="firstName" required>
+        </div>
+        <div class="inp-label-div">
+            <label for="lastName">Last Name:</label>
+            <input type="text" name="lastName" id="lastName" required>
+        </div>
+        <div class="inp-label-div">
+            <label for="avatar">Avatar:</label>
+            <input type="url" name="avatar" id="avatar">
+        </div>
+        <div class="inp-label-div">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div class="inp-label-div">
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" required>
+        </div>
+        <div class="inp-label-div">
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone" required>
+        </div>
+        <div class="inp-label-div">
+            <label for="job">Job:</label>
+            <input type="text" name="job" id="job" required>
+        </div>
+        <div class="submit-button">
+            <button>
+                <span>submit</span>
+            </button>
+        </div>
+    </form>
+
+
+    <table class="main-table">
+        <thead class="thead">
+            <tr>
+                <th>Id</th>
+                <th>Avatar</th>
+                <th>Email</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>Job</th>
+                <th>Phone</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody class="tbody">
+        </tbody>
+    </table>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

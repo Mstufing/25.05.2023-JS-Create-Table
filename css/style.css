@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* todo FORM */
+
+.inp-form{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightcoral;
+    margin: 50px auto;
+}
+
+.inp-form .inp-label-div{
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.main-table {
+    margin: 50px auto;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+.main-table th {
+   background-color: lightgray;
+   padding: 12px;
+   border-collapse: collapse;
+   border-bottom: 2px solid red;
+}
+
+.main-table td {
+    padding: 20px;
+}
+
+.submit-button{
+    align-self: flex-end;
+    margin-right: 6px;
+}
